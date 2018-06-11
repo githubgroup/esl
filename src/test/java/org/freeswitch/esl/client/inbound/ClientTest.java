@@ -50,7 +50,7 @@ public class ClientTest
             {
                 log.info( "Background job result received [{}]", event );
             }
-            
+
         } );
         
         log.info( "Client connecting .." );
