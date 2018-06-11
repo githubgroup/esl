@@ -31,7 +31,7 @@ public class ClientTest
 {
     private final Logger log = LoggerFactory.getLogger( this.getClass() );
 
-    private String host = "freeswitch-test";
+    private String host = "localhost";
     private int port = 8021;
     private String password = "ClueCon"; 
         
