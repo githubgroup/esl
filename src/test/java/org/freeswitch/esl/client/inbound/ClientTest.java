@@ -74,6 +74,7 @@ public class ClientTest
         client.addEventFilter( "Event-Name", "channel_create" );
         client.addEventFilter( "Event-Name", "background_job" );
         client.sendSyncApiCommand( "echo", "Foo foo bar" );
+        client.sendSyncApiCommand( "originate", "user/1010 &echo" );
 
 //        client.sendSyncCommand( "originate", "sofia/internal/101@192.168.100.201! sofia/internal/102@192.168.100.201!" );
         
