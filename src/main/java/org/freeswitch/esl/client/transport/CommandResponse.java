@@ -26,6 +26,7 @@ import org.freeswitch.esl.client.transport.message.EslHeaders.Name;
 public class CommandResponse
 {
     private final String command;
+    //应答文本
     private final String replyText;
     private final EslMessage response;
     private final boolean success;
